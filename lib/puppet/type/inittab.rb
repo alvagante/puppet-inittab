@@ -40,7 +40,7 @@ Puppet::Type.newtype(:inittab) do
   end
   
   newproperty(:command) do
-    desc "Specifies the process to be executed. If the process field starts with a ‘+’ character, init will not do utmp and wtmp accounting for that process.  This is needed for gettys that insist on doing their own utmp/wtmp housekeeping."
+    desc "Specifies the process to be executed. If the process field starts with a '+' character, init will not do utmp and wtmp accounting for that process.  This is needed for gettys that insist on doing their own utmp/wtmp housekeeping."
   end
   
 
